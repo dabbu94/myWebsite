@@ -1,15 +1,85 @@
-// Place all the styles related to the page controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px; 
+  overflow-x: hidden;
+  font-family: 'Poiret One', cursive;
+
+}
+
+
+.img{
+
+  background-image: asset-data-url("bg2.jpg");
+  background-size:cover;
+  height: 1000px;
+  filter: hue-rotate(180deg);
+  -webkit-filter: hue-rotate(180deg);
+  -moz-filter: hue-rotate(180deg);
+  -o-filter: hue-rotate(180deg);
+  -ms-filter: hue-rotate(180deg);
+  border-bottom: solid black 5px;
+}
+
+.box{
+  background-color:#FFF2D0;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 930px;
+  border-bottom: solid black 2px;
+  padding-top:150px;
+  padding-bottom: 30px;
+
+}
+
+
+
+.main_box{
+  padding-left:0px;
+  padding-right:0px;
+  margin: auto;
+
+}
 
 .name{
-  font-family: 'Poiret One', cursive;
-  position: absolute;
-  top:120px;
-  left: 700px;
-  margin: auto;
-  color: #FFF7D2;
+
+  position: relative;
+  width:500px;
+  margin: 0 auto;
+  top:80px;
+  text-align: center;
   font-size: 75px;
   padding:30px;
   border: 2px solid white;
+  color: white; 
+   background-color: rgba(0, 0, 0, 0.9);
+}
+
+.my_navbar{
+    
+  position: relative;
+  width:800px;
+  text-align: center;
+  margin: 0 auto;
+  top:400px;
+  padding:30px;
+  border: 2px solid white;
+  color: white; 
+   background-color: rgba(0, 0, 0, 0.9);
+}
+
+.my_navbar > li 
+{
+  margin-right: 90px;
+  display: inline;
+  color: white;
+}
+
+
+.my_navbar > li > a
+{
+  text-decoration:none; 
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
 }
